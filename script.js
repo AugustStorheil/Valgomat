@@ -24,7 +24,7 @@ function calculateResult() {
 
   var result = 0;
   
-  if (question1 === "enig") {
+  if (question1 === "uenig") {
     result += 5;
   } else if (question1 === "usikker") {
     result += 1,25;
@@ -54,13 +54,13 @@ function calculateResult() {
     result += 1,25;
   }
 
-  if (question6 === "enig") {
+  if (question6 === "uenig") {
     result += 5;
   } else if (question6 === "usikker") {
     result += 1,25;
   }
 
-  if (question7 === "enig") {
+  if (question7 === "uenig") {
     result += 5;
   } else if (question7 === "usikker") {
     result += 1,25;
@@ -102,13 +102,13 @@ function calculateResult() {
     result += 1,25;
   }
 
-  if (question14 === "enig") {
+  if (question14 === "uenig") {
     result += 5;
   } else if (question14 === "usikker") {
     result += 1,25;
   }
 
-  if (question15 === "enig") {
+  if (question15 === "uenig") {
     result += 5;
   } else if (question15 === "usikker") {
     result += 1,25;
@@ -120,13 +120,13 @@ function calculateResult() {
     result += 1,25;
   }
 
-  if (question17 === "enig") {
+  if (question17 === "uenig") {
     result += 5;
   } else if (question17 === "usikker") {
     result += 1,25;
   }
 
-  if (question18 === "enig") {
+  if (question18 === "uenig") {
     result += 5;
   } else if (question18 === "usikker") {
     result += 1,25;
