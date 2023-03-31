@@ -1,7 +1,7 @@
 
     body {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: #003955;
+        background-color: #004f80;
       }
       h1 {
         text-align: center;
@@ -12,12 +12,27 @@
         margin: 0 auto;
         padding: 20px;
         background-color: #fff;
-        box-shadow: 0 0 10px rgb(255, 255, 255);
         border-radius: 8px;
         margin-bottom: 100px;
       }
       input[type="radio"] {
         margin-right: 10px;
+        cursor: pointer;
+      }
+
+      html::-webkit-scrollbar{
+        width: 15px;
+      }
+
+      html::-webkit-scrollbar-track {
+        background: #003955;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+      html::-webkit-scrollbar-thumb {
+        background: rgb(206, 0, 0);
+        border-radius: 100px;
+        box-shadow: inset -3px 6px 3px 0 rgba(0, 0, 0, 0.596);
       }
 
       button {
@@ -30,6 +45,7 @@
         font-size: 18px;
         cursor: pointer;
         border-radius: 5px;
+        box-shadow: -3px 3px 1px 0 rgb(3, 3, 3);
       }
       
       #result {
@@ -41,7 +57,7 @@
         font-size: 24px;
         font-weight: bold;
         color: white;
-        background-color: #003955;
+        background-color: #004f80;
         border-radius: 5px;
         padding: 20px;
       }
