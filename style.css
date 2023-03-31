@@ -13,7 +13,7 @@
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 0 10px rgb(255, 255, 255);
-        border-radius: 3px;
+        border-radius: 8px;
         margin-bottom: 100px;
       }
       input[type="radio"] {
@@ -50,4 +50,9 @@
         position: relative;
         left: 450px;
         top: 30px;
+      }
+
+      img:hover {
+        border-radius: 100px;
+        background-image: linear-gradient(red, #003955);
       }
